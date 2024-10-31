@@ -33,6 +33,12 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  margin: 4px 0;
+  padding: 4px;
+}
+
+main {
+  border: 1px solid red;
 }
 
 @media (prefers-color-scheme: dark) {
