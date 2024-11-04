@@ -9,3 +9,10 @@ This is a very trivial setup that reproduces the error.
 
 If you remove the `loading.tsx`, error seems to goes away (99% sure)
 If you disable `experimental.dynamicIO`, the error goes away (100% sure)
+
+# DynamicIO Standlone Error
+
+1. npm run build
+2. npm run start
+3. go to [http://localhost:3000/A](localhost:3000/A) and wait until page fully loads (browser spinner stops)
+4. Click on "B" and see "connection closed" crash in console
