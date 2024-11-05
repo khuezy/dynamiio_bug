@@ -10,7 +10,7 @@ This is a very trivial setup that reproduces the error.
 If you remove the `loading.tsx`, error seems to goes away (99% sure)
 If you disable `experimental.dynamicIO`, the error goes away (100% sure)
 
-# DynamicIO Standlone Error
+# DynamicIO Standalone Error
 
 1. npm run build
 2. npm run start
